@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>EBAC Shoes</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <article class="sobre-section">
+                <div class="content-wrapper">
+                    <img src="./imagens/Loja tenis.jpg" alt="Loja de Tênis" class="image">
+                    <div class="text-content">
+                        <h3><a href="#">Sobre a loja</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, enim maxime. Corrupti, ipsam tempore. Omnis doloribus harum porro, dolorum animi, maxime velit aliquid et cumque laudantium quos tempore sapiente voluptatibus.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat pariatur aliquid itaque necessitatibus nostrum sed sit ipsa, ducimus ullam esse laborum reiciendis culpa. Nihil voluptate recusandae distinctio aspernatur in dolorum?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias labore possimus suscipit rem velit aut harum nemo exercitationem laudantium quas atque, modi adipisci architecto! Ratione nostrum perferendis ducimus sapiente iusto.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Produtos</h2>
+        <div class="produto-container">
+            <article class="detalhes">
+                <a href="#">
+                    <img src="./imagens/tennis.png" alt="Tênis Nike" />
+                    <h3>Tênis Nike Modelo XPTO</h3><br>
+                    <p>Tênis Adidas preto, disponíveis nos <br> tamanhos 37, 38, 39, 40 e 42</p>
+                </a><br>
+                <button>Ver detalhes</button>
+            </article>
+            <article class="detalhes">
+                <a href="#">
+                    <img src="./imagens/tennis.png" alt="Tênis Nike" />
+                    <h3>Tênis Nike Modelo XPTO</h3><br>
+                    <p>Tênis Adidas preto, disponíveis nos <br> tamanhos 37, 38, 39, 40 e 42</p>
+                </a><br>
+                <button>Ver detalhes</button>
+            </article>
+            <article class="detalhes">
+                <a href="#">
+                    <img src="./imagens/tennis.png" alt="Tênis Nike" />
+                    <h3>Tênis Nike Modelo XPTO</h3><br>
+                    <p>Tênis Adidas preto, disponíveis nos <br> tamanhos 37, 38, 39, 40 e 42</p>
+                </a><br>
+                <button>Ver detalhes</button>
+            </article>
+            <article class="detalhes">
+                <a href="#">
+                    <img src="./imagens/tennis.png" alt="Tênis Nike" />
+                    <h3>Tênis Nike Modelo XPTO</h3><br>
+                    <p>Tênis Adidas preto, disponíveis nos <br> tamanhos 37, 38, 39, 40 e 42</p>
+                </a><br>
+                <button>Ver detalhes</button>
+            </article>
+        </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.nav-links button').click(function() {
+                $('.nav-links').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
